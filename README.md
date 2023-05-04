@@ -32,7 +32,7 @@ This application was created as part of a UT Full Stack Coding Bootcamp challeng
 
 ## Contributing
 
-[Starter code]([https://github.com/coding-boot-camp/miniature-eureka](https://github.com/coding-boot-camp/fantastic-umbrella)) was provided by Xander Rapstine and UT Austin Boot Camps.
+[Starter code]([https://github.com/coding-boot-camp/miniature-eureka](https://github.com/coding-boot-camp/fantastic-umbrella)) was provided by Xander Rapstine ([Xandromus](https://github.com/Xandromus)) and UT Austin Boot Camps.
 
 ## Questions
 
