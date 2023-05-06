@@ -43,8 +43,8 @@ DB_PW='[YOUR PASSWORD]'
 
 |              | CATEGORIES                               | TAGS                               | PRODUCTS                               |
 |--------------|------------------------------------------|------------------------------------|----------------------------------------|
-| GET          | http://localhost:3001/api/categories/    | http://localhost:3001/api/tags/    | http://localhost:3001/api/products/    |
-| GET BY ID    | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
+| GET (ALL)    | http://localhost:3001/api/categories/    | http://localhost:3001/api/tags/    | http://localhost:3001/api/products/    |
+| GET (BY ID)  | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
 | CREATE(POST) | http://localhost:3001/api/categories/    | http://localhost:3001/api/tags/    | http://localhost:3001/api/products/    |
 | UPDATE(PUT)  | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
 | DELETE       | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
