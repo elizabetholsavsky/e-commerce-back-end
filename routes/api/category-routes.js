@@ -9,11 +9,14 @@ router.get('/', async (req, res) => {
     const categoriesData = await Category.findAll({
       include: [{model: Product}]
     });
+
     if (!categoriesData) {
       res.status(200).json({message: 'No categories found'});
       return;
-    }
+    };
+
     res.status(200).json(categoriesData);
+
   } catch (err) {
     res.status(500).json(err);
   };
@@ -25,11 +28,14 @@ router.get('/:id', async (req, res) => {
     const categoryById = await Category.findByPk(req.params.id, {
       include: [{ model: Product }]
     });
+
     if (!categoryById) {
       res.status(200).json({message: 'No categories found'});
       return;
-      }
-      res.status(200).json(categoryById);
+    };
+
+    res.status(200).json(categoryById);
+
   } catch (err) {
     res.status(500).json(err);
   };
@@ -41,8 +47,10 @@ router.post('/', async (req, res) => {
     const newCategory = await Category.create({
       category_name: req.body.categoryName
     })
+
     res.status(200).json(newCategory);
     console.log('New category added!')
+
   } catch (err) {
     res.status(500).json(err);
   };
@@ -59,24 +67,43 @@ router.put('/:id', async (req, res) => {
         id: req.params.id
       }
     });
-    // sends error message if user requests to update ID that does not exist
+    // sends message if user requests to update ID that does not exist
     const categoryById = await Category.findByPk(req.params.id, {
       include: [{ model: Product }]
     });
+
     if (!categoryById) {
       res.status(200).json({message: 'No categories found'});
       return;
-      }
+    };
+
     res.status(200).json(updateCategory)
     console.log("Category updated!")
+
   } catch (err) {
     res.status(500).json(err);
   };
 });
 
-router.delete('/:id', (req, res) => {
+router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
-  try {} catch (err) {
+  try {
+    const deleteCategory = await Category.destroy(
+      {
+        where: {
+          id: req.params.id,
+        }
+      });
+
+      if (!deleteCategory) {
+        res.status(200).json({message: 'No categories found'});
+        return;
+      };
+
+      res.status(200).json(deleteCategory);
+      console.log('Category deleted!');
+
+  } catch (err) {
     res.status(500).json(err);
   };
 });
