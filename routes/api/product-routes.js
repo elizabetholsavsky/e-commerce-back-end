@@ -33,7 +33,7 @@ router.get('/:id', async (req, res) => {
     }
 
     res.status(200).json(productById);
-    
+
   } catch (err) {
     res.status(500).json(err);
   }
@@ -115,7 +115,21 @@ router.put('/:id', (req, res) => {
 
 // delete one product by its `id` value
 router.delete('/:id', async (req, res) => {
-  try {} catch (err) {
+  try {
+    const deleteProduct = await Product.destroy({
+      where: {
+        id: req.params.id
+      }
+    });
+    if (!deleteProduct) {
+      res.status(200).json({message: 'No products found'});
+      return;
+    }
+
+    res.status(200).json(deleteProduct);
+    console.log("Product deleted!");
+    
+  } catch (err) {
     res.status(500).json(err);
   }
 });
