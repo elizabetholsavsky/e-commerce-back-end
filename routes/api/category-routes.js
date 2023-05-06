@@ -29,7 +29,7 @@ router.get('/:id', async (req, res) => {
       res.status(200).json({message: 'No categories found'});
       return;
       }
-      res.status(200).json(categoryById)
+      res.status(200).json(categoryById);
   } catch (err) {
     res.status(500).json(err);
   };
@@ -37,7 +37,13 @@ router.get('/:id', async (req, res) => {
 
 router.post('/', async (req, res) => {
   // create a new category
-  try {} catch (err) {
+  try {
+    const newCategory = await Category.create({
+      category_name: req.body.categoryName
+    })
+    res.status(200).json(newCategory);
+    console.log('New category added!')
+  } catch (err) {
     res.status(500).json(err);
   };
 });
