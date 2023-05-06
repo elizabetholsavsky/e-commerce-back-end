@@ -50,7 +50,26 @@ router.post('/', async (req, res) => {
 
 router.put('/:id', async (req, res) => {
   // update a category by its `id` value
-  try {} catch (err) {
+  try {
+    const updateCategory = await Category.update({
+      category_name: req.body.categoryName
+    },
+    {
+      where: {
+        id: req.params.id
+      }
+    });
+    // sends error message if user requests to update ID that does not exist
+    const categoryById = await Category.findByPk(req.params.id, {
+      include: [{ model: Product }]
+    });
+    if (!categoryById) {
+      res.status(200).json({message: 'No categories found'});
+      return;
+      }
+    res.status(200).json(updateCategory)
+    console.log("Category updated!")
+  } catch (err) {
     res.status(500).json(err);
   };
 });
