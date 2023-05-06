@@ -23,6 +23,18 @@ This application was created as part of a UT Full Stack Coding Bootcamp challeng
 * [Questions](#questions)
 
 ## Installation
+* Check if you have Node.js installed by typing `node -v` in your command line. If node is not installed, visit the [Node.js](https://nodejs.org/en) website to install. 
+* Next, clone this project repository to your computer. 
+* Use the command `npm i` to install dependecies. 
+* Create a file in the root directory titled ".env" include personal MySQL login information:
+```
+DB_NAME='[YOUR DATABASE NAME]'
+DB_USER='[YOUR USERNAME]'
+DB_PW='[YOUR PASSWORD]'
+```
+* Open MySQL with command `mysql -u root -p` and enter your personal MySQL password. 
+* Create databse with command `source schema.sql`. Log out of MySQL with command `\q`.
+* Seed database with command `npm run seed`.
 
 ## Usage
 
