@@ -39,7 +39,16 @@ DB_PW='[YOUR PASSWORD]'
 ## Usage
 * Start server with command `npm start`.
 * Start server with Nodemon (and restart server automatically when making changes to code) with command `npm run watch`.
-* Access API routes with the following endpoints:
+* Access API routes with Insomnia using the following endpoints:
+
+|              | CATEGORIES                               | TAGS                               | PRODUCTS                               |
+|--------------|------------------------------------------|------------------------------------|----------------------------------------|
+| GET          | http://localhost:3001/api/categories/    | http://localhost:3001/api/tags/    | http://localhost:3001/api/products/    |
+| GET BY ID    | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
+| CREATE(POST) | http://localhost:3001/api/categories/    | http://localhost:3001/api/tags/    | http://localhost:3001/api/products/    |
+| UPDATE(PUT)  | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
+| DELETE       | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
+
 
 ## License
 
