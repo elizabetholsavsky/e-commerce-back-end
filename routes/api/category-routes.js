@@ -77,8 +77,8 @@ router.put('/:id', async (req, res) => {
       return;
     };
 
-    res.status(200).json(updateCategory)
-    console.log("Category updated!")
+    res.status(200).json(updateCategory);
+    console.log("Category updated!");
 
   } catch (err) {
     res.status(500).json(err);
