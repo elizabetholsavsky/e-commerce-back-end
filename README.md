@@ -22,9 +22,9 @@ GET, POST, PUT, and DELETE routes were created for the following models:
 * **Product (including ProductTag)**
   * Get all products, get produucts by ID, and delete products by ID (create and update product routes were already provided in starter code).
 
-**Watch video to see application set-up in VSCode and demonstration all API endpoints using Insomnia:**
+**Watch [video](https://drive.google.com/file/d/1NIvw182cm9BbSRIy9B_vkRM48qPPwHk4/view?usp=sharing) to see application set-up in VSCode and demonstration all API endpoints using Insomnia:**
 
-[VIDEO]
+https://user-images.githubusercontent.com/116515976/236650677-f50d70eb-70a3-43a0-9195-e45877e2a95c.mov
 
 ## Table of Contents
 
