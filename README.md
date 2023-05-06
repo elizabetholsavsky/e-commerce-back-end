@@ -49,6 +49,14 @@ DB_PW='[YOUR PASSWORD]'
 | UPDATE(PUT)  | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
 | DELETE       | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
 
+* Make POST and PUT requests with the following JSON body formats:
+
+|                        | CATEGORIES                         | TAGS                          | PRODUCTS                                                                                                          |
+|------------------------|------------------------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| CREATE(POST) JSON BODY | `{ "categoryName": "STRING INPUT" }` | `{ "tagName": "STRING INPUT" }` | `{ "product_name": "STRING INPUT",   "price": DECIMAL INPUT,   "stock": INTEGER INPUT,   "tagIds": INTEGER INPUT }` |
+| UPDATE(PUT) JSON BODY  | `{ "categoryName": "STRING INPUT" }` | `{ "tagName": "STRING INPUT" }` | `{ "product_name": "STRING INPUT",   "price": DECIMAL INPUT,   "stock": INTEGER INPUT,   "tagIds": INTEGER INPUT }` |
+
+
 
 ## License
 
