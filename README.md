@@ -37,6 +37,9 @@ DB_PW='[YOUR PASSWORD]'
 * Seed database with command `npm run seed`.
 
 ## Usage
+* Start server with command `npm start`.
+* Start server with Nodemon (and restart server automatically when making changes to code) with command `npm run watch`.
+* Access API routes with the following endpoints:
 
 ## License
 
