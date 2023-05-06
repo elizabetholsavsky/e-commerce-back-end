@@ -2,7 +2,7 @@
 
 ## Description
 
-This application was created as part of a UT Full Stack Coding Bootcamp challenge. Given the starter code of a working Express.js API, I configured code to use Sequelize to interact with a MySQL database.
+This application was created as part of a UT Full Stack Coding Bootcamp challenge. Given the starter code of a working Express.js API, code was configured to use Sequelize to interact with a MySQL database. 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=flat)](https://nodejs.org/en)
@@ -12,7 +12,13 @@ This application was created as part of a UT Full Stack Coding Bootcamp challeng
 [![Nodemon Badge](https://img.shields.io/badge/Nodemon-76D04B?logo=nodemon&logoColor=fff&style=flat)](https://nodemon.io/)
 [![Insomnia Badge](https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=fff&style=flat)](https://insomnia.rest/)
 
-[INSERT VIDEO]
+GET, POST, PUT, and DELETE routes were created for the following models: Category, Tag, and Product (including ProductTag):
+* Get all categories, get a single category by ID, create a new category, update and existing category by ID, and delete an existing category by ID. 
+* Get all tags, get a single tag by ID, create a new tag, update and existing tag  by ID, and delete and existing tag by ID.
+* Get all products, get produucts by ID, and delete products by ID (create and update product routes were already provided in starter code).
+Watch video to see application set-up in VSCode and demonstration all API endpoints using Insomnia:
+
+[VIDEO]
 
 ## Table of Contents
 
