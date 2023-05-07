@@ -15,11 +15,11 @@ This application was created as part of a UT Full Stack Coding Bootcamp challeng
 GET, POST, PUT, and DELETE routes were created for the following models: 
 
 * **Category**
-  * Get all categories, get a single category by ID, create a new category, update and existing category by ID, and delete an existing category by ID. 
+  * GET all categories, GET a single category by ID, POST(create) a new category, PUT(update) and existing category by ID, and DELETE an existing category by ID. 
 * **Tag**
-  * Get all tags, get a single tag by ID, create a new tag, update an existing tag by ID, and delete an existing tag by ID.
+  * GET all tags, GET a single tag by ID, POST(create) a new tag, PUT(update) an existing tag by ID, and DELETE an existing tag by ID.
 * **Product (including ProductTag)**
-  * Get all products, get products by ID, and delete products by ID (post/create and put/update product routes were already provided in starter code).
+  * GET all products, GET products by ID, and DELETE products by ID. POST(create) and PUT(update) product routes were provided in starter code.
 
 **Watch [video](https://drive.google.com/file/d/100kSriYMz0mfKECMtBlch7cjPPMxgpiI/view?usp=sharing) to see application set-up in VSCode and demonstration all API endpoints using Insomnia:**
 
@@ -37,7 +37,7 @@ https://user-images.githubusercontent.com/116515976/236651137-fe235966-b5bf-4064
 * Check if you have Node.js installed by typing `node -v` in your command line. If node is not installed, visit the [Node.js](https://nodejs.org/en) website to install. 
 * Next, clone this project repository to your computer. 
 * Use the command `npm i` to install dependecies. 
-* Create a file in the root directory titled `.env` include personal MySQL login information:
+* Create a file in the root directory titled `.env` including database name and personal MySQL login information:
 ```
 DB_NAME='[YOUR DATABASE NAME]'
 DB_USER='[YOUR USERNAME]'
