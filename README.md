@@ -89,7 +89,7 @@ DB_PW='[YOUR PASSWORD]'
 
 [Starter code]([https://github.com/coding-boot-camp/miniature-eureka](https://github.com/coding-boot-camp/fantastic-umbrella)) was provided by Xander Rapstine ([Xandromus](https://github.com/Xandromus)) and UT Austin Boot Camps.
 
-Tables in README created using [table-magic](https://github.com/stevecat/table-magic).
+Tables in README created using [table-magic](https://github.com/stevecat/table-magic) by Steve GunTrip ([stevecat](https://github.com/stevecat)).
 
 ## Questions
 
