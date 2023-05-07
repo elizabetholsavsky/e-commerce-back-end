@@ -37,7 +37,7 @@ https://user-images.githubusercontent.com/116515976/236651137-fe235966-b5bf-4064
 * Check if you have Node.js installed by typing `node -v` in your command line. If node is not installed, visit the [Node.js](https://nodejs.org/en) website to install. 
 * Next, clone this project repository to your computer. 
 * Use the command `npm i` to install dependecies. 
-* Create a file in the root directory titled `.env` including database name and personal MySQL login information:
+* Create a file in the root directory titled `.env` and include database name and personal MySQL login information:
 ```
 DB_NAME='[YOUR DATABASE NAME]'
 DB_USER='[YOUR USERNAME]'
