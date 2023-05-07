@@ -16,17 +16,14 @@ GET, POST, PUT, and DELETE routes were created for the following models:
 
 * **Category**
   * Get all categories, get a single category by ID, create a new category, update and existing category by ID, and delete an existing category by ID. 
-
 * **Tag**
-  * Get all tags, get a single tag by ID, create a new tag, update and existing tag  by ID, and delete and existing tag by ID.
+  * Get all tags, get a single tag by ID, create a new tag, update an existing tag by ID, and delete an existing tag by ID.
 * **Product (including ProductTag)**
-  * Get all products, get produucts by ID, and delete products by ID (create and update product routes were already provided in starter code).
+  * Get all products, get products by ID, and delete products by ID (create and update product routes were already provided in starter code).
 
 **Watch [video](https://drive.google.com/file/d/100kSriYMz0mfKECMtBlch7cjPPMxgpiI/view?usp=sharing) to see application set-up in VSCode and demonstration all API endpoints using Insomnia:**
 
-
 https://user-images.githubusercontent.com/116515976/236651137-fe235966-b5bf-4064-bfe5-d8391c539f99.mov
-
 
 ## Table of Contents
 
@@ -55,20 +52,17 @@ DB_PW='[YOUR PASSWORD]'
 * Start server with Nodemon (and restart server automatically when making changes to code) with command `npm run watch`.
 * Access API routes with Insomnia using the following endpoints:
 
-|              | CATEGORIES                               | TAGS                               | PRODUCTS                               |
-|--------------|------------------------------------------|------------------------------------|----------------------------------------|
-| GET (ALL)    | http://localhost:3001/api/categories/    | http://localhost:3001/api/tags/    | http://localhost:3001/api/products/    |
-| GET (BY ID)  | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
-| CREATE(POST) | http://localhost:3001/api/categories/    | http://localhost:3001/api/tags/    | http://localhost:3001/api/products/    |
-| UPDATE(PUT)  | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
-| DELETE       | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
+|                                   | CATEGORY                                 | TAG                                | PRODUCT                                |
+|-----------------------------------|------------------------------------------|------------------------------------|----------------------------------------|
+| GET (ALL), POST(CREATE)           | http://localhost:3001/api/categories/    | http://localhost:3001/api/tags/    | http://localhost:3001/api/products/    |
+| GET (BY ID), PUT(UPDATE),  DELETE | http://localhost:3001/api/categories/:id | http://localhost:3001/api/tags/:id | http://localhost:3001/api/products/:id |
+
 
 * Make POST and PUT requests with the following JSON body formats:
 
-|                        | CATEGORIES                         | TAGS                          | PRODUCTS                                                                                                          |
-|------------------------|------------------------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| CREATE(POST) JSON BODY | `{ "categoryName": "STRING INPUT" }` | `{ "tagName": "STRING INPUT" }` | `{ "product_name": "STRING INPUT",   "price": DECIMAL INPUT,   "stock": INTEGER INPUT,   "tagIds": INTEGER INPUT }` |
-| UPDATE(PUT) JSON BODY  | `{ "categoryName": "STRING INPUT" }` | `{ "tagName": "STRING INPUT" }` | `{ "product_name": "STRING INPUT",   "price": DECIMAL INPUT,   "stock": INTEGER INPUT,   "tagIds": INTEGER INPUT }` |
+| CATEGORY                           | TAG                           | PRODUCT                                                                                                           |
+|------------------------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| `{ "categoryName": "STRING INPUT" }` | `{ "tagName": "STRING INPUT" }` | `{ "product_name": "STRING INPUT",   "price": DECIMAL INPUT,   "stock": INTEGER INPUT,   "tagIds": INTEGER INPUT }` |
 
 ## License
 
