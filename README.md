@@ -24,7 +24,9 @@ GET, POST, PUT, and DELETE routes were created for the following models:
 
 **Watch [video](https://drive.google.com/file/d/1NIvw182cm9BbSRIy9B_vkRM48qPPwHk4/view?usp=sharing) to see application set-up in VSCode and demonstration all API endpoints using Insomnia:**
 
-https://user-images.githubusercontent.com/116515976/236650677-f50d70eb-70a3-43a0-9195-e45877e2a95c.mov
+
+https://user-images.githubusercontent.com/116515976/236651137-fe235966-b5bf-4064-bfe5-d8391c539f99.mov
+
 
 ## Table of Contents
 
