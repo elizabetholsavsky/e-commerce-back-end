@@ -82,7 +82,7 @@ Tables in README created using [table-magic](https://github.com/stevecat/table-m
 
 ## Questions
 
-✉️Contact:
+Contact ✉ 
 
 Github [elizabetholsavsky](https://github.com/elizabetholsavsky)
 
