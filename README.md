@@ -84,6 +84,6 @@ Tables in README created using [table-magic](https://github.com/stevecat/table-m
 
 Contact:
 
-Github [elizabetholsavsky](https://github.com/elizabetholsavsky)
+* Github [elizabetholsavsky](https://github.com/elizabetholsavsky)
 
-Email elizabetholsavsky@gmail.com
+* Email elizabetholsavsky@gmail.com
