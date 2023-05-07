@@ -60,10 +60,27 @@ DB_PW='[YOUR PASSWORD]'
 
 * Make POST and PUT requests with the following JSON body formats:
 
-| CATEGORY                           | TAG                           | PRODUCT                                                                                                           |
-|------------------------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| `{ "categoryName": "STRING INPUT" }` | `{ "tagName": "STRING INPUT" }` | `{ "product_name": "STRING INPUT",   "price": DECIMAL INPUT,   "stock": INTEGER INPUT,   "tagIds": INTEGER INPUT }` |
-
+ **CATEGORY**
+  ```
+  { 
+  "categoryName": "STRING INPUT" 
+  }
+  ```
+ **TAG**
+  ```
+  { 
+  "tagName": "STRING INPUT" 
+  }
+  ```
+  **PRODUCT**
+  ```
+  { 
+  "product_name": "STRING INPUT",   
+  "price": DECIMAL INPUT,   
+  "stock": INTEGER INPUT,   
+  "tagIds": INTEGER INPUT
+  }
+  ```
 ## License
 
 [MIT License](https://opensource.org/licenses/MIT)
