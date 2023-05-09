@@ -42,9 +42,9 @@ https://user-images.githubusercontent.com/116515976/236651137-fe235966-b5bf-4064
 * Use the command `npm i` to install dependencies. 
 * Create a file in the root directory titled `.env` and include database name and personal MySQL login information:
 ```
-DB_NAME='[YOUR DATABASE NAME]'
-DB_USER='[YOUR USERNAME]'
-DB_PW='[YOUR PASSWORD]'
+DB_NAME='YOUR DATABASE NAME'
+DB_USER='YOUR USERNAME'
+DB_PW='YOUR PASSWORD'
 ```
 * Open MySQL with command `mysql -u root -p` and enter your personal MySQL password. 
 * Create databse with command `source schema.sql`. Log out of MySQL with command `\q`.
