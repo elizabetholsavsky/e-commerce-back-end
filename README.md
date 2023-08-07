@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/116515976/236651137-fe235966-b5bf-4064
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Questions](#questions)
+* [Contact](#contact)
 
 ## Installation
 * Check if you have Node.js installed by typing `node -v` in your command line. If node is not installed, visit the [Node.js](https://nodejs.org/en) website to install. 
@@ -94,9 +94,7 @@ DB_PW='YOUR PASSWORD'
 
 Tables in README created using [table-magic](https://github.com/stevecat/table-magic) by Steve GunTrip ([stevecat](https://github.com/stevecat)).
 
-## Questions
-
-Contact:
+## Contact
 * Email elizabetholsavsky@gmail.com
 * LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
 * Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
